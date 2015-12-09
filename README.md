@@ -1,2 +1,7 @@
-# ParallelBWT
-Repo for my MIT 6.338 repository, writing a parallel BWT algorithm in julia.
+Repo for Gil Goldshlager's Final Project in MIT 6.338, Parallel Computing with Julia
+
+Contains code to run a Move-to-front encoder and decoder, and a Huffman encoder and decoder.  
+
+The original goal was to create a full Burrows-Wheeler type compression and decompression algorithm, but the BWT itself turned out to be too much for a course project.
+
+Type julia -p N -L BWT.jl Demos.jl <n> to run a demo of all of the algorithms on a randomly generated string of length n. 
